@@ -1,0 +1,29 @@
+{
+  "name": "fire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --progress --colors",
+    "build": "webpack --progress --colors"
+  },
+  "author": "Jon Rogozen",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.3.1",
+    "express": "^4.12.2",
+    "fluxxor": "^1.5.2",
+    "jsonp": "^0.1.0",
+    "jsx-loader": "^0.12.2",
+    "node-jsx": "^0.12.4",
+    "react": "^0.12.2",
+    "react-hot-loader": "^1.1.7",
+    "react-router": "^0.12.4",
+    "serve-static": "^1.9.1",
+    "superagent": "^0.21.0",
+    "underscore": "^1.8.2",
+    "webpack": "^1.7.2",
+    "webpack-dev-middleware": "^1.0.11",
+    "webpack-dev-server": "^1.7.0"
+  }
+}
